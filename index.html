@@ -3,7 +3,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <head>
     <meta charset="UTF-8">
-    <title>Jay Star Crochet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JayStarCrochet</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -40,11 +42,11 @@
                                 Shop Now
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">All Items</a>
-                                <a class="dropdown-item" href="#">Bags</a>
-                                <a class="dropdown-item" href="#">Animals</a>
-                                <a class="dropdown-item" href="#">Pokemon</a>
-                                <a class="dropdown-item" href="#">Charms</a>
+                                <a class="dropdown-item" href="shopnow/allitems.html">All Items</a>
+                                <a class="dropdown-item" href="shopnow/bags.html">Bags</a>
+                                <a class="dropdown-item" href="shopnow/animals.html">Animals</a>
+                                <a class="dropdown-item" href="shopnow/pokemon.html">Pokemon</a>
+                                <a class="dropdown-item" href="shopnow/charms.html">Charms</a>
                             </div>
                         <!-- About Dropdown -->
                         <li class="nav-item dropdown">
@@ -53,8 +55,8 @@
                                 About
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Shipping</a>
-                                <a class="dropdown-item" href="#">Returns</a>
+                                <a class="dropdown-item" href="aboutpage/shipping.html">Shipping</a>
+                                <a class="dropdown-item" href="aboutpage/returns.html">Returns</a>
                             </div>
                         </li>
                         <!--Links-->
@@ -62,7 +64,7 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item ms-auto">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="checkoutpage/yourshoppingcart.html">
                                 <i class="bi bi-cart4"></i>
                             </a>
                         </li>
@@ -89,82 +91,95 @@
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-  
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="header.jpg" alt="Header with Bear Crochet" class="d-block" style="width:100%">
-        <div class="carousel-caption">
-          <h1>Welcome to Jay Star Crochet!</h1>
-          <a href="#" class="link-light">Shop All</a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="header2.jpg" alt="Header with Yarn" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="header3.jpg" alt="Header with" class="d-block w-100">
-      </div>
-    </div>
-  
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
   </div>
-<br>
-<br>
 
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/header2.jpg" alt="Blue Yarn in a Pile" class="d-block w-100">
+      <div class="carousel-caption">
+        <div class="display-7 mb-3" style="font-family: Georgia, serif;">Welcome to</div>
+        <!--Heading 2-->
+        <div class="display-4 mb-3" style="font-family: Georgia, serif;">JayStarCrochet</div>
+        <!--Button-->
+        <a href="shopnow/allitems.html" class="btn btn-outline-light btn-lg text">
+          Shop All
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/header.jpg" alt="Crochet Bear" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/header3.jpg" alt="Four Crochet Tigers" class="d-block w-100">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!--End of Carousel-->
+
+<br>
+<br>
 <!--Bestsellers Portion-->
-<div class="col-sm-4 text-left">
-    <h3>Bestsellers</h3>
+<div class="col-md-3 text-left">
+    <div class="h4" style="font-family: Georgia, serif;">Bestsellers</div>
 </div>
 
 <!--Cards-->
 <div class="row">
   <!-- Card 1 -->
-  <div class="card col-6 col-md-3 col-lg-3">
-    <img class="card-img-top" src="key.png" alt="Rabbit Crochet Image">
+  <div class="card border-light col-6 col-md-3 col-lg-3">
+    <img class="card-img-top" src="images/Miffy.jpg" alt="Rabbit Crochet Image">
     <div class="card-body">
-        <h5 class="card-title">Rabbit</h5>
-        <p class="card-text">$30</p>
+        <h6 class="card-title">Rabbit</h6>
+        <p class="card-text">$30.00</p>
+        <a href="#" class="stretched-link"></a>
     </div>
   </div>
 
   <!-- Card 2 -->
-  <div class=" card col-6 col-md-3 col-lg-3">
-    <img class="card-img-top" src="key.png" alt="Rabbit Crochet Image">
+  <div class="card border-light col-6 col-md-3 col-lg-3">
+    <img class="card-img-top" src="images/Miffy.jpg" alt="Rabbit Crochet Image">
     <div class="card-body">
-        <h5 class="card-title">Rabbit</h5>
-        <p class="card-text">$30</p>
+        <h6 class="card-title">Rabbit</h6>
+        <p class="card-text">$30.00</p>
+        <a href="#" class="stretched-link"></a>
     </div>
   </div>
+
   <!-- Card 3 -->
-  <div class="card col-6 col-md-3 col-lg-3">
-    <img class="card-img-top" src="key.png" alt="Rabbit Crochet Image">
+  <div class="card border-light col-6 col-md-3 col-lg-3">
+    <img class="card-img-top" src="images/Miffy.jpg" alt="Rabbit Crochet Image">
     <div class="card-body">
-        <h5 class="card-title">Rabbit</h5>
-        <p class="card-text">$30</p>
+        <h6 class="card-title">Rabbit</h6>
+        <p class="card-text">$30.00</p>
+        <a href="#" class="stretched-link"></a>
     </div>
   </div>
 <!-- Card 4 -->
-  <div class="card col-6 col-md-3 col-lg-3">
-    <img class="card-img-top" src="key.png" alt="Rabbit Crochet Image">
+  <div class="card border-light col-6 col-md-3 col-lg-3">
+    <img class="card-img-top" src="images/Miffy.jpg" alt="Rabbit Crochet Image">
     <div class="card-body">
-        <h5 class="card-title">Rabbit</h5>
-        <p class="card-text">$30</p>
+        <h6 class="card-title">Rabbit</h6>
+        <p class="card-text">$30.00</p>
+        <a href="#" class="stretched-link"></a>
     </div>
   </div>
 </div>
+<!--End of Cards-->
+
 <!--Footer-->
 <br>
 <br>
