@@ -1,4 +1,30 @@
 
+#itemheading {
+    color:#515354;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight:800;
+}
+#price {
+    color:#648186;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: 700;
+}
+
+#inputZip {
+    background-color: #eaeaea
+}
+
+#QuantityButton {
+    color: #aaaaaa;
+}
+
+#itemdescription {
+    color:#454849;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: 450;
+    font-size: 125%;
+}
+
 /* Footer */
 .footer {
     position: fixed;
